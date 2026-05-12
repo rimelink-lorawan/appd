@@ -1,16 +1,71 @@
-## Hi there 👋
+# 物锐连
 
-<!--
-**rimelink-lorawan/rimelink-lorawan** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+> Chirpstack 设备数据可视化验证工具
 
-Here are some ideas to get you started:
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 产品简介
+
+物锐连是一款专为 Chirpstack 用户打造的设备数据可视化验证工具。通过简单的 HTTP 集成配置，即可实现设备数据的自动解析、实时图表展示和快速问题定位，大幅提升物联网设备调试效率。
+
+## 核心功能
+
+### 一键接入 Chirpstack
+🔗 支持 Chirpstack V3/V4，无需复杂开发，只需在应用后台配置一个 HTTP 集成地址即可接入。
+
+### 多数据解析结构
+📊 可配置多个数据解析结构，灵活适配不同设备的上报格式。
+
+### 自动数据结构化
+🔄 自动结构化设备的上报数据，无需手动解析。
+
+### 图表可视化 + 自动刷新
+📈 图表展示数据属性并自动刷新，实时监控设备状态。
+
+### 设备数据验证利器
+✅ 验证设备数据是否走通的极简工具，快速定位问题。
+
+### 本地服务也能用
+💻 集成转发模式，本地的 Chirpstack 服务一样可以直接接入进行可视化数据呈现。
+
+## 快速上手
+
+### 三步即可体验
+
+**第一步：配置 Chirpstack HTTP 集成**
+在 Chirpstack 应用后台配置 HTTP 集成地址，指向物锐连提供的接入点。
+
+**第二步：添加数据解析结构**
+根据设备上报的数据格式，配置对应的解析结构，支持灵活适配。
+
+**第三步：查看实时数据图表**
+数据自动结构化并呈现在图表中，实时刷新，一目了然。
+
+## 典型使用场景
+
+- 🛠️ **设备开发调试** — 快速验证设备数据是否正常上报，实时查看解析结果
+- 📱 **小规模部署** — 小批量设备的快速可视化管理，无需搭建复杂的物联网平台
+- 🧪 **原型验证** — 物联网项目快速原型验证工具，加速从概念到落地的过程
+- 👨‍💻 **开发者工具** — 物联网开发者的日常调试利器
+
+## 核心优势
+
+| 优势 | 说明 |
+|------|------|
+| ⚡ 零代码接入 | 只需配置一个 HTTP 地址，分钟级完成接入 |
+| 🔄 实时刷新 | 数据自动刷新，实时掌握设备最新状态 |
+| 🏠 本地兼容 | 本地 Chirpstack 服务也能完美接入 |
+| 📡 多设备支持 | 一套系统管理所有设备数据 |
+
+## 立即体验
+
+访问 [https://app.rimecloud.com/appd/login](https://app.rimecloud.com/appd/login) 开始使用物锐连。
+
+## 联系我们
+
+- 网站：[www.rimelink.com](http://www.rimelink.com/)
+- 产品地址：[https://app.rimecloud.com/appd](https://app.rimecloud.com/appd)
+
+## License
+
+MIT License - 详情请参阅 [LICENSE](LICENSE) 文件。
